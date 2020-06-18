@@ -59,3 +59,13 @@ function rectangleArea(a, b) {
 function cylinderArea(r, h) {
     return 2 * Math.PI * r * (r + h);
 }
+
+/**
+ * Calculates the area of ​​a rhombus
+ * @param {number} a - Rhombus base length
+ * @param {number} h - Rhombus height length
+ * @returns {number} - The area of ​​a rhombus
+ */
+function rhombusArea(a, h) {
+    return a * h
+}
