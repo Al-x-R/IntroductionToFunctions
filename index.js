@@ -27,3 +27,15 @@ function checkMultiplicity(m, n) {
 function triangleCheck(a, b, c) {
     return (a + b) > c && (a + c) > b && (b + c) > a
 }
+
+/**
+ * Calculates the area of ​​a triangle
+ * @param {number} a - Side of the triangle
+ * @param {number} b - Side of the triangle
+ * @param {number} c - Side of the triangle
+ * @returns {number} - Area of ​​a triangle
+ */
+function triangleArea(a, b, c) {
+    const p = (a + b + c) / 2
+    return Math.sqrt(p * (p - a) * (p - b) * (p - c))
+}
