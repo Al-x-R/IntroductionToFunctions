@@ -39,3 +39,13 @@ function triangleArea(a, b, c) {
     const p = (a + b + c) / 2
     return Math.sqrt(p * (p - a) * (p - b) * (p - c))
 }
+
+/**
+ * Calculates the area of ​​a rectangle
+ * @param {number} a - Side of the rectangle
+ * @param {number} b - Side of the rectangle
+ * @returns {number} - Area of ​​a rectangle
+ */
+function rectangleArea(a, b) {
+    return a * b
+}
