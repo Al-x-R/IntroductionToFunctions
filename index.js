@@ -16,3 +16,14 @@ function isAdult(age) {
 function checkMultiplicity(m, n) {
     return m % n === 0
 }
+
+/**
+ * Checks the possibility of creating a triangle
+ * @param {Number} a
+ * @param {Number} b
+ * @param {Number} c
+ * @returns {boolean}
+ */
+function triangleCheck(a, b, c) {
+    return (a + b) > c && (a + c) > b && (b + c) > a
+}
