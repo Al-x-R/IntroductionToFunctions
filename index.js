@@ -49,3 +49,13 @@ function triangleArea(a, b, c) {
 function rectangleArea(a, b) {
     return a * b
 }
+
+/**
+ * Calculates the total cylinder surface area
+ * @param {number} r - Base radius
+ * @param {number} h - Cylinder height
+ * @returns {number} - The total cylinder surface area
+ */
+function cylinderArea(r, h) {
+    return 2 * Math.PI * r * (r + h);
+}
